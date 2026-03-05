@@ -3,7 +3,7 @@ import streamlit as st
 from modules.data_loader import load_dataset
 from modules.etl_pipeline import clean_data
 from modules.auto_analysis import detect_columns
-from modules.charts_engine import bar_chart
+from modules.charts_engine import generate_chart
 from modules.semantic_search import search_dataframe
 from modules.insights_engine import generate_insights
 
