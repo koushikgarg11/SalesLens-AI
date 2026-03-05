@@ -29,7 +29,7 @@ if uploaded_file:
         x = st.selectbox("Category", cat_cols)
         y = st.selectbox("Metric", numeric_cols)
 
-        st.plotly_chart(bar_chart(df, x, y))
+        st.plotly_chart(generate_chart(df, x, y))
 
     st.subheader("Insights")
 
